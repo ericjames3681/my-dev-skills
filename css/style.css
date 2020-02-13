@@ -1,15 +1,58 @@
-html {
-    background-color: rgb(37, 36, 36);
-}
+
+
 .container {
-    display: grid;
-    grid-template-rows: 4fr 4fr 4fr; 
-    justify-content: center;
-    align-content: center;
-    background-color: rgb(248, 246, 246);	
+    justify-content: flex-end;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vmin;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 50%;
+    grid-template-rows: auto;
+    height: 50%;
+    border: 20px double rgb(87, 167, 87);
+    padding: 40px;
+    grid-row-gap: 15px;
+    justify-items: stretch;
 }
-h2 {
-    background-color: khaki;
-    font-size: 26;
+
+h5 {    
+    background-color: rgb(87, 167, 87);
+    color: whitesmoke;
+    padding: 5px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+#list {
+    list-style: none;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px dotted red;
+    padding: 5px 5px 5px 5px;
 
 }
+li {
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 65%;
+}
+#input {
+    border: rgb(132, 197, 132);
+    color: whitesmoke;
+    padding: 5px 5px 5px 5px;
+    font-size: smaller;
+    width: 65%;
+}
+
+#submit {
+    border: 20px rgb(63, 128, 63);
+    font-style:  rgb(87, 167, 87);
+    padding: 5px 5px 5px 5px;
+    font-size: smaller; 
+    width: 30%;
+}
+
+
